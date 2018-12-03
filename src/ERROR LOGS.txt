@@ -1,0 +1,18 @@
+Error Logs :
+17/09/2016
+
+Using Sam's Database, With Auto Increment.
+
+Membership
+
+1. Cannot view member types
+2. Cannot add new members
+
+Both errors show 'Unknown column'.
+
+It seemed that cakePHP somehow gets the name of the column wrong. attempting to manually fix them.
+
+fixed no 1 by changing column names
+fixed no 2 by changing echo $this->Form->input('mtypes._ids', ['options' => $mtypes]); to echo $this->Form->input('mtype._id', ['options' => $mtypes]); 
+at templates\members\add.ctp
+

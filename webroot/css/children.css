@@ -1,0 +1,25 @@
+select{
+	width:200px;
+}
+
+a.view_button{
+    background-image: url(../img/view2x.png);
+    color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 24px 24px;
+}
+
+a.edit_button{
+    background-image: url(../img/edit2x.png);
+    color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 24px 24px;
+}
+
+.hide_active{
+    display: none;
+}

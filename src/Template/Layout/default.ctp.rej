@@ -1,0 +1,10 @@
+diff a/src/Template/Layout/default.ctp b/src/Template/Layout/default.ctp	(rejected hunks)
+@@ -182,7 +180,7 @@
+ 
+ 
+ <!-- ICON NEEDS FONT AWESOME FOR CHEVRON UP ICON -->
+-<link href="//netdna.bootstrapcdn.com/font-awesome/3.2.1/css/font-awesome.css" rel="stylesheet">
++<?= $this->Html->css('font-awesome.css') ?>
+ 
+ <!-- Datepicker start -->
+ <script type="application/javascript">

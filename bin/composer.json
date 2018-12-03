@@ -1,0 +1,5 @@
+{
+    "require": {
+        "phillipsdata/csv": "^1.1"
+    }
+}

@@ -1,0 +1,46 @@
+[
+    {
+        "name": "phillipsdata/csv",
+        "version": "1.1.0",
+        "version_normalized": "1.1.0.0",
+        "source": {
+            "type": "git",
+            "url": "https://github.com/phillipsdata/csv.git",
+            "reference": "4adf31ff85370bde3ca3c1a4211805a41bafb9ad"
+        },
+        "dist": {
+            "type": "zip",
+            "url": "https://api.github.com/repos/phillipsdata/csv/zipball/4adf31ff85370bde3ca3c1a4211805a41bafb9ad",
+            "reference": "4adf31ff85370bde3ca3c1a4211805a41bafb9ad",
+            "shasum": ""
+        },
+        "require": {
+            "php": ">=5.4"
+        },
+        "require-dev": {
+            "phpunit/phpunit": "~4.8",
+            "satooshi/php-coveralls": "~1.0",
+            "squizlabs/php_codesniffer": "~2.3"
+        },
+        "time": "2016-03-04 19:48:08",
+        "type": "library",
+        "installation-source": "dist",
+        "autoload": {
+            "psr-4": {
+                "PhillipsData\\Csv\\": "src/"
+            }
+        },
+        "notification-url": "https://packagist.org/downloads/",
+        "license": [
+            "MIT"
+        ],
+        "description": "CSV Reader and Writer",
+        "keywords": [
+            "csv",
+            "delimited",
+            "file",
+            "parser",
+            "tab"
+        ]
+    }
+]

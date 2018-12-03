@@ -1,0 +1,47 @@
+CHANGE LOG :
+
+Removed Unneeded Columns from the Members table
+
+Changed ActivitesTable.php from
+
+public function initialize(array $config)
+    {
+        parent::initialize($config);
+
+        $this->table('activities');
+        $this->displayField('Activity_id');
+        $this->primaryKey(['Activity_id', 'Members_id']);
+
+        $this->belongsTo('Activities', [
+            'foreignKey' => 'Activity_id',
+            'joinType' => 'INNER'
+        ]);
+        $this->belongsTo('Members', [
+            'foreignKey' => 'Members_id',
+            'joinType' => 'INNER'
+        ]);
+    }
+	
+to
+
+ public function initialize(array $config)
+    {
+        parent::initialize($config);
+
+        $this->table('activities');
+        $this->displayField('Activity_id');
+        $this->primaryKey(['Activity_id', 'Members_id']);
+
+        $this->belongsTo('Activities', [
+            'foreignKey' => 'Activity_id',
+			'bindingKey' => 'id',
+            'joinType' => 'INNER'
+        ]);
+        $this->belongsTo('Members', [
+            'foreignKey' => 'Members_id',
+			'bindingKey' => 'id',
+            'joinType' => 'INNER'
+        ]);
+    }
+	
+ 

@@ -1,0 +1,54 @@
+ul{
+        padding:0;
+        list-style: none;
+        background: #f2f2f2;
+        text-align: center;
+        width:97%;      
+        margin: auto;     
+    }
+    ul li{
+        display: inline-block;
+        position: relative;
+        line-height: 21px;
+        text-align: left;
+    }
+    ul li a{
+        display: block;
+        padding: 8px 25px;
+        color: #333;
+        text-decoration: none;
+    }
+    ul li a:hover{
+        color: #fff;
+        background: #939393;
+    }
+    ul li ul.nav{
+        min-width: 100%; /* Set width of the dropdown */
+        background: #f2f2f2;
+        display: none;
+        position: absolute;
+        z-index: 999;
+        left: 0;
+    }
+    ul li:hover ul.nav{
+        display: block; /* Display the dropdown */
+    }
+    ul li ul.nav li{
+        display: block;
+    }
+
+
+#title {
+    text-align: center;
+    
+}
+#welcome{
+    width:80%;
+    height:80%;
+    text-align: center;
+    background: #f2f2f2;
+    border-radius: 5px;
+    margin: auto;
+    box-shadow: 1px 5px 5px #888888;
+
+}

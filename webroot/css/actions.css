@@ -1,0 +1,104 @@
+
+a.view_button{
+    background-image: url(../img/view2x.png);
+    color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 24px 24px;
+}
+
+.emergency a{
+    background-image: url(../img/emergency2x.png);
+    float: right;
+    color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-top: -4px;
+    background-size: 48px 48px;
+    padding-right: 20px;
+    
+    height: 48px;
+}
+
+a.edit_button{
+    background-image: url(../img/edit2x.png);
+    color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 24px 24px;
+}
+
+a.delete_button{
+    background-image: url(../img/delete2x.png);
+    color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 24px 24px;
+    
+}
+
+a.back_button{
+    background-image: url(../img/back2xwhite.png);
+    overflow: hidden;
+    color: transparent;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 24px 24px;
+    width: 25px;
+    padding-top: 5px;
+    
+}
+
+.printbutton{
+    background-image: url(../img/printwhite2x.png);
+    color: transparent;
+    background-color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 48px 48px;
+}
+
+.printbutton:hover{
+    background-image: url(../img/printwhite2x.png);
+    color: transparent;
+    background-color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 48px 48px;
+}
+
+.editbtn{
+    background-image: url(../img/edit2xwhite.png);
+    float: right;
+    color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    margin-top: -4px;
+    background-size: 48px 48px;
+    padding-right: 20px;
+    height: 48px;
+}
+
+.editbtn:hover{
+    background-image: url(../img/edit2xwhite.png);
+    color: transparent;
+    overflow: hidden;
+    background-repeat: no-repeat;
+    padding-bottom: 5px;
+    background-size: 48px 48px;
+}
+
+.forgot a{
+    color:dimgrey;
+    
+}
+.forgot a:hover {
+    color:dimgrey;
+    text-decoration: none;
+    
+}
