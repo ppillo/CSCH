@@ -196,8 +196,8 @@ return [
             'host' => 'ssl://smtp.gmail.com',
             'port' => 465,
             'timeout' => 20,
-            'username' => 'cschtest@gmail.com',
-            'password' => 'cschtest123',
+            'username' => '',
+            'password' => '',
             'className' => 'Smtp',
             'log' => true
             //'url' => env('EMAIL_TRANSPORT_DEFAULT_URL', null),
@@ -251,8 +251,8 @@ return [
              */
             //'port' => 'non_standard_port_number',
             'username' => 'cschorga_admindb',
-            'password' => 'adminDB123',
-            'database' => 'cschorga_admindb',
+            'password' => '',
+            'database' => '',
             'encoding' => 'utf8',
             'timezone' => 'UTC',
             'flags' => [],
